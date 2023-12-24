@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.card{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0;
+    border: 4px solid black;
+    border-radius: 3px;
+    margin-top: 9px;
+    max-width: 355px;
+    box-shadow: 0 4px 8px 0 rgb(90, 81, 81);
+}
+.card:hover{
+    box-shadow: 0 15px 30px 0 rgb(71, 62, 62);
+}
+.head #result{
+    width: 329px;
+    height: 80px;
+    text-align: right;
+    padding: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.calc-body .dark{
+    width: 88px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #1f2326;
+    color: white;
+}
+.dark:hover{
+    background-color: coral;
+}
